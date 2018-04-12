@@ -1,0 +1,157 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+
+<head>
+
+
+          <!-- Required meta tags for bootstrap4 tutorial -->
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+          <!-- Bootstrap CSS >
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"-->
+      
+      
+      
+             <!-- Optional JavaScript -->
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script-->
+        
+      
+    <meta charset="utf-8" />
+    <meta name="description" content="My personal project description.">
+    <meta name="author" content="Benjamin "
+    <meta name="keywords" content="making a smart wearable lap tracker!" >
+    <title>My personal project website</title>
+    
+    <link href="layout.css" rel="stylesheet">
+    <link href= "theme.css" rel="stylesheet">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+   
+
+    
+</head>
+<body>
+
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <img src="logo.png" alt="cloudie" />
+                </div>
+                    <ul class="menu">
+                        <li class="active"><a href="/">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="settings.html">Settings</a></li>
+                        <li><a href="targets.html">Targets</a></li>
+                        <li><a href="sessions.html">Sessions</a></li>
+                    </ul>
+            </div>
+        </nav>
+
+    <header>
+        
+        
+        <div class="title-wrapper">
+            <h1 class="header-title">A wearable swimming device that counts laps and the time.</h1>
+        </div>
+        <div class="subtitle-wrapper">
+                <h1 class="sub-title">Learn more today!</h1>
+        </div>
+    </header>
+
+
+    <section class="call-to-action">
+        <div class="container">  
+            <div class="intro">
+                    <h3 class="section-title white">Call to action.</h3>
+                    <p>
+                        this is where you add text to paragraphs.
+                    </p>
+                </div>
+                <div class="intro right">
+                    <a href="login.html" class="call-button">sign up here</a>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="progress">
+        <div class="container">
+                <h3 class="section-title gray works">Progreess.</h3>
+
+                <div class="column">
+                    <h3 class="gray works">FULL SYSTEM</h3>
+                    <img src= "system.png" alt="works"/>
+                    <h3 class="gray works">DATABASE</h3>
+                    <img src= "system.png" alt="works"/>
+                </div>
+
+                <div class="column">
+                        <h3 class="gray works">WEBSITE</h3>
+                        <img src= "system.png" alt="works"/>
+                        <h3 class="gray works">DAQ</h3>
+                        <img src= "system.png" alt="works"/>
+                </div>
+            
+        </div>
+
+    </section>
+
+    <section class= "testimonials">
+        <div class="container">
+            <h3 class="section-title gray2">Testimonials</h3>
+            <ul class="list-unstyled">
+                    <li class="media">
+                      <img class="mr-3" src= "mo.png" alt="Generic placeholder image">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">Person 1</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                      </div>
+                    </li>
+                    <li class="media my-4">
+                      <img class="mr-3" src= "mo.png" alt="Generic placeholder image">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">Person 2</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                      </div>
+                    </li>
+                    <li class="media">
+                      <img class="mr-3" src= "mo.png" alt="Generic placeholder image">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">Person 3</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                      </div>
+                    </li>
+                  </ul>
+        </div>
+
+    </section>
+
+    <section class="location">
+        <div class="container">
+                <h3 class="section-title white">Located</h3>
+
+        </div>
+        <img class="img-fluid" src= "place.png" alt="Generic placeholder image">
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <ul class="footer-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="targets.html">Targets</a></li>
+                <li><a href="sessions.html">Sessions</a></li>
+            </ul>
+        </div>
+    </footer>
+   
+<script src="scripts.js" type="text/javascript"></script>
+</body>
+</html> 
